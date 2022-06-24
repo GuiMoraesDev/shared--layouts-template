@@ -12,6 +12,22 @@
 
 This project is a template to be a start point to learn the concept of styled components.
 
+## Project Folders Structure 👷
+
+```code
+.
+├── public...........................# contains files used by React as template;
+├── src..............................# projects folders were created here;
+│    ├── assets......................# contains reusable components;
+│    │   └── images..................# centralize images and create React Components to each one;
+│    ├── pages.......................# group project modules;
+│    │   └── [pages_folder]
+│    ├── routes......................# controller of routes creation and redirects on sign in/sign out;
+│    ├── styles......................# centralize global styles to be reused in project;
+│    └── [...].......................# root files to run React as well;
+└── [...]............................# root files as environment, cypress, linters, etc;
+```
+
 ## Configuring your Project 🧰
 
 Yarn will install all dependencies into all projects, start and build them
